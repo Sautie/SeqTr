@@ -12,7 +12,7 @@
 
 using namespace std;
 
-
+//Miguel Sautie
 /*** parser newick format, la determination de bipartitions et distRF***/
 /*** 4 fonctions globales et 2 classes (class Arbre (32 fonctions membres) et class Node (18 fonctions membres))  ***/
 // coordonees des fonctions les plus importantes: newickparser: ligne 575, insertNode: 316 biparti, RFdistance: 509 , NJ: 688
