@@ -39,8 +39,6 @@ public:
 	Arbre* NewickParser(std::string newick, int num=0);
 	std::vector<std::vector<std::vector<std::string> > > Biparti(Arbre* ar1, Node* nor);
 	int RFdistance(std::string newick1, std::string newick2);
-	std::vector< Node*>  NJ( Node * &NI, std::vector< std::vector<double> > V, std::vector<std::string> names); //map<pair<string, string>, double>& gre,
-	void NJ2(std::vector<Node *> vectNodes, Node* &N);
 	void suppArbre(Node* N);
 private:
 	Node* racine;
