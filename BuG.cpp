@@ -526,7 +526,7 @@ int bellNumber(int n)  //bell number using bell triangle:  number of partitions 
 
 
 
-  // A dynamic programming based function to find nth  Geekforgeeks  quadratique complexity
+  // A dynamic programming based function to find nth quadratique complexity
 // Catalan number
 unsigned long int catalanDP(unsigned int n)
 {
@@ -550,9 +550,7 @@ unsigned long int catalanDP(unsigned int n)
     return catalan[n];
 }
 
-/*
- * http://www.geeksforgeeks.org/program-nth-catalan-number/  lineal complexity
- */
+
 // Returns value of Binomial Coefficient C(n, k)
 unsigned long int binomialCoeff(unsigned int n, unsigned int k) {
     unsigned long int res = 1;
