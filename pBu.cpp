@@ -334,7 +334,7 @@ void print_subtree_bracketed(const tree<T>& t, typename tree<T>::iterator iRoot,
 
 int main(int, char **)
    {
-   tree<string> tr, Supertr;
+   /*tree<string> tr, Supertr;
    tree<string>::iterator li,ite,it,top, one, two;
    vector<tree<string>::iterator>  iteroTree;
    vector< vector<string > > Mbgraph;
@@ -594,7 +594,7 @@ int main(int, char **)
 cout<<endl<<s2<<endl;
 cout<<endl<<s3<<endl;
 cout<<endl<<s4<<endl;
-
+*/
 
    	 // function pour extraire feuilles de toutes les politomies
    	//function subsets
