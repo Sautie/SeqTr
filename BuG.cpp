@@ -484,7 +484,7 @@ int bellNumber(int n)  //bell number using bell triangle:  number of partitions 
 
  // number of leaf labeled rooted binary trees (with n lebeled leaves): (2n-3)!!
   // number of leaf labeled unrooted binary trees (with n labeled leaves): (2n-5)!!
-  // n!!= 2exp(k)*k!  for all n=2k, k>=0  https://en.wikipedia.org/wiki/Double_factorial
+  // n!!= 2exp(k)*k!  for all n=2k, k>=0  
   //n!!=(2k)!/(2exp(k)*k!) for all n=2k-1, k>=1;
 /*unsigned int doublefactorial(unsigned int n)
   {
